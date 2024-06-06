@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 
 
 
-const DB_URI = `mongodb+srv://Bikkey:Bikkey@cluster0.gzgo9gk.mongodb.net/PURANOBAZAR?retryWrites=true&w=majority`;
+const DB_URI = `mongodb+srv://`;
 
  const db = () => {
     mongoose.connect(DB_URI)
